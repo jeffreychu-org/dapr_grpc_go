@@ -102,7 +102,7 @@ Start the gRPC server in `greeting_client` using Dapr cli by
 dapr run --app-id client --dapr-grpc-port 50007 --config config.yaml -- go run main.go
 ```
 
-Please noted that you must indicate the metadata when calling the gRPC server like or involving the metdata using other programming language, plese view [here](dapr run --app-id client --dapr-grpc-port 50007 --config config.yaml -- go run main.go)
+Please noted that you must indicate the metadata when calling the gRPC server like or involving the metdata using other programming language, plese view [here](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/howto-invoke-services-grpc/#step-2-invoke-the-service)
 
 ```go
 ctx = metadata.AppendToOutgoingContext(ctx, "dapr-app-id", "server")

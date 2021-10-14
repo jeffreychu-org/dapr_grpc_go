@@ -111,3 +111,10 @@ ctx = metadata.AppendToOutgoingContext(ctx, "dapr-app-id", "server")
 ## Reference
 
 [How-To: Invoke services using gRPC | Dapr Docs](https://docs.dapr.io/developing-applications/building-blocks/service-invocation/howto-invoke-services-grpc/)
+
+[Deploy Dapr on a Kubernetes cluster | Dapr Docs](https://docs.dapr.io/operations/hosting/kubernetes/kubernetes-deploy/#install-with-helm-advanced)
+
+[Overview of Dapr on Kubernetes | Dapr Docs](https://docs.dapr.io/operations/hosting/kubernetes/kubernetes-overview/)
+
+[quickstarts/hello-kubernetes at master · dapr/quickstarts (github.com)](https://github.com/dapr/quickstarts/tree/master/hello-kubernetes)
+

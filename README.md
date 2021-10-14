@@ -41,7 +41,7 @@ go run main.go
 
 Then you can test the gRPC server as below
 
-![grpc_server_normal](.\image\grpc_server_normal.jpg)
+![grpc_server_normal](./image/grpc_server_normal.jpg)
 
 Start the Dapr using Dapr Cli
 
@@ -86,13 +86,13 @@ dapr dashboard
 
 and view the dashboard in http://localhost:8080 and remember the **Dapr gRPC Port**
 
-![dapr_dashboard](.\image\dapr_dashboard.jpg)
+![dapr_dashboard](./image/dapr_dashboard.jpg)
 
 Then you can test the gRPC server using Dapr as gRPC proxy as below
 
 You must indicate the metadata when using Dapr gRPC server by specifying its `dapr-app-id` as the one you start the server using Dapr Cli
 
-![grpc_server_dapr](.\image\grpc_server_dapr.jpg)
+![grpc_server_dapr](./image/grpc_server_dapr.jpg)
 
 #### gRPC Client
 
